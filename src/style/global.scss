@@ -1,0 +1,25 @@
+$background-color: hsl(0, 0%, 8%);
+$grey-color: hsl(0, 0%, 20%);
+$dark-grey: hsl(0, 0%, 12%);
+$text-white-color: hsl(0, 0%, 100%);
+$text-green-color: hsl(75, 94%, 57%);
+
+$fontfamily: "Inter", sans-serif;
+$fontstyle: normal;
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: $dark-grey;
+  justify-content: center; /* Horizontally center the content */
+  align-items: center;
+  border-radius: 10px;
+  padding: 23px;
+  font-size: 10px;
+}

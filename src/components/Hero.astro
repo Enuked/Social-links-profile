@@ -1,0 +1,30 @@
+---
+import avatar from "D:/mentor/social-links-profile/public/assets/images/avatar-jessica.jpeg";
+
+interface Props {
+  author: string;
+  address: string;
+  description: string;
+}
+
+const { author, address, description } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head> </head>
+  <body>
+    <div>
+      <header class="hero-point">
+        <img src={avatar.src} alt={author} />
+        <h1 class="author">{author}</h1>
+        <address class="address">{address}</address>
+        <p class="description">{description}</p>
+      </header>
+    </div>
+  </body>
+</html>
+
+<style lang="scss">
+  @import "../style/hero.scss";
+</style>

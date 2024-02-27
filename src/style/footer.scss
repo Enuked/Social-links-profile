@@ -1,0 +1,29 @@
+@import "../style/global.scss";
+
+.footer-point {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  > ul {
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+    padding: 0;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 14px;
+    > li {
+      display: flex;
+      justify-content: center;
+      background-color: $grey-color;
+      color: $text-white-color;
+      font-size: 12px;
+      font-family: $fontfamily;
+      font-style: $fontstyle;
+      border-radius: 7px;
+      padding: 10px 0 10px 0;
+      width: 244px;
+    }
+  }
+}

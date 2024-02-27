@@ -1,0 +1,36 @@
+---
+import Footer from "../layouts/Footer.astro";
+import Hero from "../components/Hero.astro";
+---
+
+<main>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <div class="main-container">
+    <div class="container">
+      <div class="hero-flex">
+        <Hero
+          author="Jessica Randall"
+          address="London, United Kingdom"
+          description='"Front-end developer and avid reader"'
+        />
+      </div>
+      <div class="foot-flex">
+        <Footer />
+      </div>
+    </div>
+  </div>
+</main>
+<style lang="scss">
+@import "../style/global.scss";
+
+  html {
+    background-color: hsl(0, 0%, 8%);
+  }
+</style>
