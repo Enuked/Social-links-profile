@@ -14,6 +14,7 @@
     gap: 10px;
     font-size: 14px;
     > li {
+      > a {
       display: flex;
       justify-content: center;
       background-color: $grey-color;
@@ -22,8 +23,17 @@
       font-family: $fontfamily;
       font-style: $fontstyle;
       border-radius: 7px;
+      font-weight: 500;
       padding: 10px 0 10px 0;
       width: 244px;
+      text-decoration: none;
+
+      &:hover {
+        background-color: $text-green-color;
+        color: $background-color;
+        text-decoration: none;
+      }
+      }
     }
   }
 }

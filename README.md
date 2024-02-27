@@ -24,5 +24,5 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/Enuked/Social-links-profile](https://github.com/Enuked/Social-links-profile)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://main--social-links-profiles.netlify.app/](https://main--social-links-profiles.netlify.app/)
 
